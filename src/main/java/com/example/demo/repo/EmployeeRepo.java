@@ -11,6 +11,7 @@ public interface EmployeeRepo extends MongoRepository<Employee,String> {
 
     public List<Employee> findAll();
 
+    public Employee insert(Employee employee);
 }
 
 
